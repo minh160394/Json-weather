@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Spicy+Rice');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+:root{
+    --mainblue: #1EA5E8;
+    --maingreen: #016D6D;
+    --mainybr: #B1CBB9;
+
+}
+body{
+    background-color: var(--mainybr);
+}
+.header{
+    color: var(--mainblue);
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 2rem;
+}
+.submitbutton{
+    color: black;
+    background-color: var(--mainblue);
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.content-display{
+    font-family: 'Black Han Sans', sans-serif;
+    background-color: white;
+    padding: 20px 40px;
+    margin: 20px;
+}
